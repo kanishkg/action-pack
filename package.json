@@ -1,0 +1,29 @@
+{
+  "name": "actiontab",
+  "version": "0.1.0",
+  "description": "Tab-complete for your desktop—predicts clicks and text, executes on hotkey",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "NODE_ENV=development electron .",
+    "rebuild": "electron-rebuild",
+    "postinstall": "electron-rebuild"
+  },
+  "keywords": [
+    "electron",
+    "desktop",
+    "automation",
+    "ai",
+    "mlx"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-rebuild": "^3.2.9"
+  },
+  "dependencies": {
+    "robotjs": "^0.6.0"
+  }
+}
+
